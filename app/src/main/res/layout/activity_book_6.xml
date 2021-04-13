@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_xuwu"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/xuwu"/>
+
+    <TextView
+        android:id="@+id/tv_xuwujiage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/iv_xuwu"
+        android:layout_marginTop="25dp"
+        android:text="价格:35人民币"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_xuwuzuozhe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_xuwujiage"
+        android:layout_marginTop="25dp"
+        android:text="作者：《虚无的十字架》充分展现了东野圭吾的创作才华。"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_xuwujieshao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tv_xuwuzuozhe"
+        android:layout_marginTop="25dp"
+        android:text="详情:东野圭吾这次选择的，是社会道德议题上一个两难的选择：关于罪与罚，是让犯人听到自己的死刑宣判而感到解脱？还是让他重返自由社会用尽一生赎罪？这正是东野圭吾想要展现的力量：现代社会关于死刑是否应该被废除的一次深刻的思考和解读。"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/xuwushoucang"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_xuwujieshao"
+        android:layout_marginTop="50dp"
+        android:text="加入收藏"
+        android:background="@drawable/selector_btnsousuo"/>
+    <Button
+        android:id="@+id/xuwugoumai"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_xuwujieshao"
+        android:layout_marginTop="50dp"
+        android:text="立即购买"
+        android:background="@drawable/selector_btnsousuo"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

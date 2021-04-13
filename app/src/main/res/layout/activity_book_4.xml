@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_jieyou"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/jieyou"/>
+
+    <TextView
+        android:id="@+id/tv_jieyoujiage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/iv_jieyou"
+        android:layout_marginTop="25dp"
+        android:text="价格:39人民币"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_jieyouzuozhe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_jieyoujiage"
+        android:layout_marginTop="25dp"
+        android:text="作者：《解忧杂货店》是日本作家东野圭吾写作的长篇小说。2011年于《小说野性时代》连载，于2012年3月由角川书店发行单行本。"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/jieyoujieshao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tv_jieyouzuozhe"
+        android:layout_marginTop="25dp"
+        android:text="详情:该书讲述了在僻静街道旁的一家杂货店，只要写下烦恼投进店前门卷帘门的投信口，第二天就会在店后的牛奶箱里得到回答……他们将困惑写成信投进杂货店，奇妙的事情随即不断发生。"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/jieyoushoucang"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/jieyoujieshao"
+        android:layout_marginTop="50dp"
+        android:text="加入收藏"
+        android:background="@drawable/selector_btnsousuo"/>
+    <Button
+        android:id="@+id/jieyougoumai"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/jieyoujieshao"
+        android:layout_marginTop="50dp"
+        android:text="立即购买"
+        android:background="@drawable/selector_btnsousuo"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

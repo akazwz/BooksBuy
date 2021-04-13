@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+      <ImageView
+          android:id="@+id/iv_baiyexing"
+          android:layout_width="100dp"
+          android:layout_height="150dp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="25dp"
+          android:src="@drawable/baiyexing"/>
+
+   <TextView
+       android:id="@+id/tv_baiyexingjiage"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_below="@+id/iv_baiyexing"
+    android:layout_marginTop="25dp"
+    android:text="价格:59人民币"
+    android:gravity="center"
+    />
+   <TextView
+       android:id="@+id/tv_baiyexingzuozhe"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_below="@+id/tv_baiyexingjiage"
+       android:layout_marginTop="25dp"
+       android:text="作者：白夜行》是日本作家东野圭吾创作的长篇小说，也是其代表作。该小说于1997年1月至1999年1月间连载于期刊，单行本1999年8月在日本发行。"
+       android:gravity="center"
+       />
+   <TextView
+       android:id="@+id/baiyexingjieshao"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:layout_below="@+id/tv_baiyexingzuozhe"
+       android:layout_marginTop="25dp"
+       android:text="详情：故事围绕着一对有着不同寻常情愫的小学生展开。1973年，大阪的一栋废弃建筑内发现了一具男尸，此后19年，嫌疑人之女雪穗与被害者之子桐原亮司走上截然不同的人生道路"
+       />
+
+   <Button
+       android:id="@+id/baiyexingshoucang"
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_below="@id/baiyexingjieshao"
+       android:layout_marginTop="50dp"
+       android:text="加入收藏"
+       android:background="@drawable/selector_btnsousuo"/>
+   <Button
+       android:id="@+id/baiyexinggoumai"
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_below="@id/baiyexingjieshao"
+       android:layout_marginTop="50dp"
+       android:text="立即购买"
+       android:background="@drawable/selector_btnsousuo"
+       android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

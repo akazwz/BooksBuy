@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+      <ImageView
+          android:id="@+id/iv_yunzhongji"
+          android:layout_width="100dp"
+          android:layout_height="150dp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="25dp"
+          android:src="@drawable/yunzhongji"/>
+
+   <TextView
+       android:id="@+id/tv_yunzhongjijiage"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_below="@+id/iv_yunzhongji"
+    android:layout_marginTop="25dp"
+    android:text="价格:55人民币"
+    android:gravity="center"
+    />
+   <TextView
+       android:id="@+id/tv_yunzhongjizuozhe"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_below="@+id/tv_yunzhongjijiage"
+       android:layout_marginTop="25dp"
+       android:text="作者：《云中记》是一部由阿来所著的长篇小说，北京十月文艺出版社出版发行。"
+       android:gravity="center"
+       />
+   <TextView
+       android:id="@+id/yunzhongjijieshao"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:layout_below="@+id/tv_yunzhongjizuozhe"
+       android:layout_marginTop="25dp"
+       android:text="详情：这个故事酝酿了十年。汶川地震后，拥有上千年传说的云中村移民到平原。年复一年。祭师阿巴感到身上云中村的味道越来越淡，他的力气在消散，内心越发不安。于是，两匹马，一个老祭师，踏上了回乡的山路。"
+       android:gravity="center"
+       />
+
+   <Button
+       android:id="@+id/yunzhongjishoucang"
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_below="@id/yunzhongjijieshao"
+       android:layout_marginTop="50dp"
+       android:text="加入收藏"
+       android:background="@drawable/selector_btnsousuo"/>
+   <Button
+       android:id="@+id/yunzhongjigoumai"
+       android:layout_width="120dp"
+       android:layout_height="50dp"
+       android:layout_below="@id/yunzhongjijieshao"
+       android:layout_marginTop="50dp"
+       android:text="立即购买"
+       android:background="@drawable/selector_btnsousuo"
+       android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

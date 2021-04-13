@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/im_shuxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/shuxiang"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/im_touxiang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/item4_before"
+        android:layout_below="@id/im_shuxiang"/>
+
+    <Button
+        android:id="@+id/btn_shezhi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im_shuxiang"
+        android:layout_toRightOf="@+id/im_touxiang"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/selector_blue"
+        />
+    <Button
+    android:id="@+id/btn_xiugai"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_toRightOf="@id/btn_shezhi"
+    android:layout_marginLeft="50dp"
+    android:text="修改资料"
+    android:background="@drawable/selector_xiugai"
+    android:layout_below="@id/im_shuxiang"
+    />
+
+    <Button
+        android:id="@+id/btn_shoucang"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im_touxiang"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/selector_xiugai"
+        android:text="我的收藏" />
+
+    <Button
+        android:id="@+id/btn_goumai"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im_touxiang"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/selector_xiugai"
+        android:layout_alignParentRight="true"
+        android:text="我的购买"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_qiehuan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_shoucang"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/selector_xiugai"
+
+        android:text="切换账号" />
+</RelativeLayout>

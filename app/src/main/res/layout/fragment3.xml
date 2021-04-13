@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/shuzhaiyunzhongji"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="#FF8A80"
+            android:text="他在自家楼顶平台上，把带着些微湿气的树皮和枯叶晒干。树皮和枯叶在阳光下散发着浓烈的柏香。阿巴坐在这些香气中间，望着云中村，望着云中村四周的田野。小桃子毛茸茸的。青绿的李子和樱桃脆生生的。----《云中记》"
+            />
+        <TextView
+            android:id="@+id/shuzhaibaiyexing"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF80AB"
+            android:layout_below="@+id/shuzhaiyunzhongji"
+            android:text="我的天空里没有太阳，总是黑夜，但并不暗，因为有东西代替了太阳。虽然没有太阳那么明亮，但对我来说已经足够。凭借着这份光，我便能把黑夜当成白天。我从来就没有太阳，所以不怕失去。----《白夜行》"
+            />
+        <TextView
+            android:id="@+id/shuzhaisitongna"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="#EA80FC"
+            android:layout_below="@id/shuzhaibaiyexing"
+            android:text="你会任由这个世界吃掉你，再把你吐出来，你还躺在这里纳闷，到底做错了什么。因为你总是对这个世界有所期待，而它没有那个东西，它也不希望如此。----《斯通纳》"
+            />
+        <TextView
+            android:id="@+id/shuzhaijieyou"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="#B388FF"
+            android:layout_below="@id/shuzhaisitongna"
+            android:text="其实所有纠结做选择的人心里早就有了答案，咨询只是想得到内心所倾向的选择。最终的所谓命运 还是自己一步步走出来的。----《解忧杂货店》"
+            />
+        <TextView
+            android:id="@+id/shuzhaisuming"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="#8C9EFF"
+            android:layout_below="@id/shuzhaijieyou"
+            android:text="生命中的全部偶然，其实都是命中注定。是为宿命。----《宿命》"
+            />
+        <TextView
+            android:id="@+id/shuzhaixuwu"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="#B9F6CA"
+            android:layout_below="@id/shuzhaisuming"
+            android:text="无论凶手事后如何反省，多么后悔，死去的生命都无法复活。----《虚无的十字架》"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

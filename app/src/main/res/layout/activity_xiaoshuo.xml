@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="小说："
+            android:textSize="25dp"
+            android:textColor="#2196F3"/>
+
+        <ImageView
+            android:id="@+id/xs_yunzhongji"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/yunzhongji"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/xs_baiyexing"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baiyexing"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/xs_yunzhongji"
+            />
+        <ImageView
+            android:id="@+id/xs_sitongna"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sitongna"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/xs_baiyexing"
+            />
+        <ImageView
+            android:id="@+id/xs_jieyou"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/jieyou"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/xs_sitongna"
+            />
+        <ImageView
+            android:id="@+id/xs_suming"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/suming"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/xs_jieyou"
+            />
+        <ImageView
+            android:id="@+id/xs_xuwu"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/xuwu"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/xs_suming"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>

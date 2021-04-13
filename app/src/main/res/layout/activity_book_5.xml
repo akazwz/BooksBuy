@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_suming"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/suming"/>
+
+    <TextView
+        android:id="@+id/tv_sumingjiage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/iv_suming"
+        android:layout_marginTop="25dp"
+        android:text="价格:31人民币"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_sumingzuozhe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_sumingjiage"
+        android:layout_marginTop="25dp"
+        android:text="作者：《宿命》是2009年4月南海出版公司出版发行的图书，作者是东野圭吾。"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_sumingjieshao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tv_sumingzuozhe"
+        android:layout_marginTop="25dp"
+        android:text="详情:主要讲述了两个从学生时代一路较劲、互相仇恨的宿敌，两桩相距十八年的离奇命案，牵扯出隐藏其中不可见的“命运之绳”。"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/sumingshoucang"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_sumingjieshao"
+        android:layout_marginTop="50dp"
+        android:text="加入收藏"
+        android:background="@drawable/selector_btnsousuo"/>
+    <Button
+        android:id="@+id/suminggoumai"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_sumingjieshao"
+        android:layout_marginTop="50dp"
+        android:text="立即购买"
+        android:background="@drawable/selector_btnsousuo"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

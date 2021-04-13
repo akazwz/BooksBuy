@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_sitongna"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/sitongna"/>
+
+    <TextView
+        android:id="@+id/tv_sitongnajiage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/iv_sitongna"
+        android:layout_marginTop="25dp"
+        android:text="价格:39人民币"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_sitongnazuozhe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_sitongnajiage"
+        android:layout_marginTop="25dp"
+        android:text="作者：约翰·威廉斯，译者：杨向荣。由世纪文景/上海人民出版社出版。"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/sitongnajieshao"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tv_sitongnazuozhe"
+        android:layout_marginTop="25dp"
+        android:text="详情：《斯通纳》讲述了生命中最重要的部分：爱，认同，怜悯，志业，傲骨，信任与死亡。
+一个勇者有过的失败不失意的人生：即使不能拥有完美的生活，所幸追求过完整的自我。"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/sitongnashoucang"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sitongnajieshao"
+        android:layout_marginTop="50dp"
+        android:text="加入收藏"
+        android:background="@drawable/selector_btnsousuo"/>
+    <Button
+        android:id="@+id/sitongnagoumai"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sitongnajieshao"
+        android:layout_marginTop="50dp"
+        android:text="立即购买"
+        android:background="@drawable/selector_btnsousuo"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>
